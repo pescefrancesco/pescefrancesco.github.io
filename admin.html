@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pannello di aggiornamento — Nome Cognome</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="admin-hero">
+    <h1>Pannello di aggiornamento</h1>
+    <p>Aggiungi, riordina o rimuovi le voci del sito. Le modifiche restano solo in questa pagina finché non scarichi il file e lo sostituisci sul sito pubblicato.</p>
+  </div>
+
+  <div class="istruzioni">
+    <strong>Come si usa</strong>
+    <ol>
+      <li>Se il sito è già pubblicato, questa pagina carica automaticamente i contenuti esistenti. Altrimenti, carica qui sotto il tuo <code>data.json</code> attuale (o parti da zero).</li>
+      <li>Aggiungi le nuove voci con il modulo qui sotto.</li>
+      <li>Premi «Scarica data.json».</li>
+      <li>Sostituisci il file <code>data.json</code> nel sito pubblicato (su GitHub: apri il file, icona della matita, incolla il contenuto, salva).</li>
+    </ol>
+  </div>
+
+  <div class="form-riquadro">
+    <h2>Carica un data.json esistente (facoltativo)</h2>
+    <input type="file" id="file-input" accept="application/json" class="file-upload">
+  </div>
+
+  <div class="form-riquadro">
+    <h2>Dati generali del sito</h2>
+    <div class="campo">
+      <label for="in-nome">Nome e cognome</label>
+      <input type="text" id="in-nome">
+    </div>
+    <div class="campo">
+      <label for="in-ruolo">Qualifica (es. Teologo sistematico)</label>
+      <input type="text" id="in-ruolo">
+    </div>
+    <div class="campo">
+      <label for="in-bio">Breve presentazione</label>
+      <textarea id="in-bio"></textarea>
+    </div>
+  </div>
+
+  <div class="form-riquadro">
+    <h2>Aggiungi una voce</h2>
+    <div class="campo">
+      <label for="in-cat">Categoria</label>
+      <select id="in-cat"></select>
+    </div>
+    <div class="campo">
+      <label for="in-titolo">Titolo *</label>
+      <input type="text" id="in-titolo" placeholder="Titolo della pubblicazione, articolo, corso…">
+    </div>
+    <div class="riga-campi">
+      <div class="campo">
+        <label for="in-url">Link (facoltativo)</label>
+        <input type="url" id="in-url" placeholder="https://…">
+      </div>
+      <div class="campo">
+        <label for="in-anno">Anno (facoltativo)</label>
+        <input type="text" id="in-anno" placeholder="2026">
+      </div>
+    </div>
+    <div class="campo">
+      <label for="in-nota">Nota breve (facoltativo)</label>
+      <textarea id="in-nota" placeholder="Rivista, editore, descrizione in una riga…"></textarea>
+    </div>
+    <button class="btn-principale" id="btn-aggiungi">Aggiungi voce</button>
+  </div>
+
+  <div id="liste"></div>
+
+</div>
+
+<div class="azioni-fisse wrap">
+  <button class="btn-scarica" id="btn-scarica">Scarica data.json</button>
+  <button class="btn-secondario" id="btn-reset">Ricomincia da zero</button>
+  <span class="stato" id="stato"></span>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
