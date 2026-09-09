@@ -1,0 +1,40 @@
+{
+  "sito": {
+    "nome": "Nome Cognome",
+    "ruolo": "Teologo sistematico",
+    "bio": "Ricerca e insegnamento in teologia sistematica, con attenzione alle fonti primarie e al dialogo tra tradizione e riflessione contemporanea."
+  },
+  "categorie": [
+    {
+      "id": "pubblicazioni",
+      "label": "Pubblicazioni",
+      "items": [
+        {
+          "title": "Voce di esempio — sostituiscila dal pannello admin",
+          "year": "2026",
+          "note": "Elimina questa voce e aggiungi le tue pubblicazioni reali."
+        }
+      ]
+    },
+    {
+      "id": "articoli",
+      "label": "Articoli",
+      "items": []
+    },
+    {
+      "id": "corsi",
+      "label": "Corsi",
+      "items": []
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "items": []
+    },
+    {
+      "id": "link",
+      "label": "Link",
+      "items": []
+    }
+  ]
+}
