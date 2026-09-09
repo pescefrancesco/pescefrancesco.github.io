@@ -7,7 +7,7 @@
   "categorie": [
     {
       "id": "pubblicazioni",
-      "label": "Pubblicazioni",
+      "label": "Publications",
       "items": [
         {
           "title": "Voce di esempio — sostituiscila dal pannello admin",
@@ -18,7 +18,7 @@
     },
     {
       "id": "articoli",
-      "label": "Articoli",
+      "label": "Articols",
       "items": []
     },
     {
