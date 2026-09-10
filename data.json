@@ -26,11 +26,7 @@
       "label": "Academic Courses",
       "items": []
     },
-    {
-      "id": "divulgazione",
-      "label": "Popularization",
-      "items": []
-    },
+    
     {
       "id": "video",
       "label": "Video",
@@ -40,8 +36,8 @@
       "id": "link",
       "label": "Link",
       "items": []
-    }
-{
+    },
+    {
       "id": "press",
       "label": "Press",
       "items": []
