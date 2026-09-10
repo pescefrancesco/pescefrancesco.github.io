@@ -23,7 +23,7 @@
     },
     {
       "id": "Academic Courses",
-      "label": "Corsi",
+      "label": "Academic Courses",
       "items": []
     },
     {
@@ -39,6 +39,11 @@
     {
       "id": "link",
       "label": "Link",
+      "items": []
+    },
+    {
+      "id": "press",
+      "label": "Press",
       "items": []
     }
   ]
