@@ -7,7 +7,7 @@
   "categorie": [
     {
       "id": "pubblicazioni",
-      "label": "Pubblicazioni",
+      "label": "Publications",
       "items": [
         {
           "title": "Voce di esempio — sostituiscila dal pannello admin",
@@ -18,12 +18,17 @@
     },
     {
       "id": "articoli",
-      "label": "Articoli",
+      "label": "Articles",
       "items": []
     },
     {
-      "id": "corsi",
+      "id": "Academic Courses",
       "label": "Corsi",
+      "items": []
+    },
+    {
+      "id": "divulgaizone",
+      "label": "Popularization",
       "items": []
     },
     {
