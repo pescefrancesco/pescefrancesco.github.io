@@ -18,12 +18,17 @@
     },
     {
       "id": "articoli",
-      "label": "Articols",
+      "label": "Articles",
       "items": []
     },
     {
       "id": "corsi",
-      "label": "Corsi",
+      "label": "Academic Courses",
+      "items": []
+    },
+    {
+      "id": "divulgazione",
+      "label": "Popularization",
       "items": []
     },
     {
